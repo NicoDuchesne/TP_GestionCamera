@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3760bcefd915fa74dae4249bf709cb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixedView
-  weight: 2
+  weight: 1
   isActiveOnStart: 1
   yaw: 20
   pitch: 20
@@ -553,7 +553,6 @@ MonoBehaviour:
     pivot: {x: 0, y: 0, z: 0}
     distance: {x: 0, y: 0, z: 0}
     fov: 0
-  activeViews: []
 --- !u!4 &1256859846
 Transform:
   m_ObjectHideFlags: 0
