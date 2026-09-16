@@ -34,7 +34,10 @@ public class CameraController : MonoBehaviour
     
     private void ApplyConfiguration()
     {
-        
+        Transform cameraTransform = camera.transform;
+        cameraTransform.position = configuration.GetPosition();
+        cameraTransform.rotation = configuration.GetRotation();
+        camera.fieldOfView = configuration.fov;
     }
 
     public void AddView(AView view)
