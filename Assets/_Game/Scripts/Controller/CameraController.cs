@@ -3,8 +3,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Camera camera;
-    private CameraConfiguration configuration;
+    public Camera cam;
+    public float smoothSpeed = 5f;
+    private CameraConfiguration targetConfiguration;
+    private CameraConfiguration actualConfiguration;
     public static CameraController Instance;
     
     private List<AView> activeViews = new List<AView>();
@@ -20,24 +22,62 @@ public class CameraController : MonoBehaviour
             Destroy(this);
         }
     }
+
+    private void Start()
+    {
+        actualConfiguration = ComputeAverage();
+        ApplyConfiguration(cam, actualConfiguration);
+        targetConfiguration = actualConfiguration;
+    }
     
     private void Update()
     {
-        ApplyConfiguration();
-        configuration = ComputeAverage();
+        targetConfiguration = ComputeAverage();
+        actualConfiguration = Smooth();
+        ApplyConfiguration(cam, actualConfiguration);
     }
     
     void OnDrawGizmos()
     {
-        configuration.DrawGizmos(Color.red);
+        targetConfiguration.DrawGizmos(Color.red);
+        actualConfiguration.DrawGizmos(Color.green);
     }
     
-    private void ApplyConfiguration()
+    private void ApplyConfiguration(Camera c, CameraConfiguration config)
     {
-        Transform cameraTransform = camera.transform;
-        cameraTransform.position = configuration.GetPosition();
-        cameraTransform.rotation = configuration.GetRotation();
-        camera.fieldOfView = configuration.fov;
+        Transform cameraTransform = c.transform;
+        cameraTransform.position = config.GetPosition();
+        cameraTransform.rotation = config.GetRotation();
+        c.fieldOfView = config.fov;
+    }
+
+    private CameraConfiguration Smooth()
+    {
+        CameraConfiguration result = actualConfiguration;
+        
+        if (smoothSpeed * Time.deltaTime < 1)
+        {
+            result.pitch += (targetConfiguration.pitch - actualConfiguration.pitch) *  smoothSpeed * Time.deltaTime;
+            result.roll += (targetConfiguration.roll - actualConfiguration.roll) *  smoothSpeed * Time.deltaTime;
+            
+            result.pivot += (targetConfiguration.pivot - actualConfiguration.pivot) *  smoothSpeed * Time.deltaTime;
+            result.distance += (targetConfiguration.distance - actualConfiguration.distance) *  smoothSpeed * Time.deltaTime;
+            result.fov += (targetConfiguration.fov - actualConfiguration.fov) *  smoothSpeed * Time.deltaTime;
+            
+            Vector2 yawActual = new Vector2(Mathf.Cos(actualConfiguration.yaw * Mathf.Deg2Rad), 
+                Mathf.Sin(actualConfiguration.yaw * Mathf.Deg2Rad));
+            Vector2 yawTarget = new Vector2(Mathf.Cos(targetConfiguration.yaw * Mathf.Deg2Rad), 
+                Mathf.Sin(targetConfiguration.yaw * Mathf.Deg2Rad));
+            Vector2 yaw = yawActual + (yawTarget - yawActual) *  smoothSpeed * Time.deltaTime;
+            result.yaw = Vector2.SignedAngle(Vector2.right, yaw);
+            
+        }
+        else
+        {
+            result = targetConfiguration;
+        }
+
+        return result;
     }
 
     public void AddView(AView view)
@@ -50,7 +90,7 @@ public class CameraController : MonoBehaviour
         activeViews.Remove(view);
     }
 
-    public CameraConfiguration ComputeAverage()
+    private CameraConfiguration ComputeAverage()
     {
         CameraConfiguration result = new CameraConfiguration();
         float totalWeight = 0;
