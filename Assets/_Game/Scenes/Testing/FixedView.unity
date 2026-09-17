@@ -301,11 +301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FixedView
   weight: 1
-  isActiveOnStart: 0
+  isActiveOnStart: 1
   yaw: 30
   pitch: 30
   roll: 30
-  fov: 30
+  fov: 70
 --- !u!1 &645121287
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   yaw: 10
   pitch: 10
   roll: 10
-  fov: 10
+  fov: 50
 --- !u!1 &1090441976
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95504925828519047ad19511af4f879b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
-  camera: {fileID: 278760921}
+  cam: {fileID: 278760921}
+  smoothSpeed: 5
 --- !u!4 &1256859846
 Transform:
   m_ObjectHideFlags: 0
