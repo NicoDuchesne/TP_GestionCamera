@@ -1,15 +1,85 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Rail : MonoBehaviour
 {
     public bool isLoop;
-    
+    private float length;
+
+    private void Start()
+    {
+        CalculateLength();
+    }
     void OnDrawGizmos()
     {
         DrawGizmos(Color.black);
     }
+
+    public float GetLength()
+    {
+        return length;
+    }
+
+    private void CalculateLength()
+    {
+        float result = 0f;
+        
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Vector3 pos = transform.GetChild(i).position;
+
+            if (i + 1 < transform.childCount)
+            {
+                Vector3 nextPos = transform.GetChild(i+1).position;
+                result += Vector3.Distance(pos, nextPos);
+            }
+
+            if (i == transform.childCount - 1 && isLoop && transform.childCount > 0)
+            {
+                Vector3 firstPos = transform.GetChild(0).position;
+                result += Vector3.Distance(pos, firstPos);
+            }
+        }
+        
+        length = result;
+    }
+
+    public Vector3 GetPosition(float distance)
+    {
+        distance = Mathf.Repeat(distance, length);
+        float traveled = 0f;
+        Vector3 result = Vector3.zero;
+        
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Vector3 pos = transform.GetChild(i).position;
+            Vector3 nextPos = pos;
+            
+            if (i + 1 < transform.childCount)
+            {
+                nextPos = transform.GetChild(i+1).position;
+            }
+
+            if (i == transform.childCount - 1 && isLoop && transform.childCount > 0)
+            {
+                nextPos = transform.GetChild(0).position;
+            }
+            
+            float d = distance - traveled;
+            traveled += Vector3.Distance(pos, nextPos);
+            
+            if (traveled > distance)
+            {
+                Vector3 dir = (nextPos-pos).normalized;
+                result = pos + dir * d;
+                return result;
+            }
+        }
+        
+        return result;
+    }
     
-    public void DrawGizmos(Color color)
+    private void DrawGizmos(Color color)
     {
         Gizmos.color = color;
 
@@ -30,7 +100,5 @@ public class Rail : MonoBehaviour
                 Gizmos.DrawLine(child.position, firstChild.position);
             }
         }
-        
-        
     }
 }
