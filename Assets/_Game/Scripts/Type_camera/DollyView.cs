@@ -13,12 +13,21 @@ public class DollyView : AView
     [SerializeField] private float speed;
     [SerializeField] private InputActionReference moveAction;
 
+    public bool isAuto;
     private float distanceOnRail = 0f;
 
     private void Update()
     {
-        float horizontal = moveAction.action.ReadValue<Vector2>().x;
-        MoveRail(horizontal);
+        if (isAuto)
+        {
+            distanceOnRail = rail.GetDistanceOnRailOfNearestPoint(target.transform.position);
+        }
+        else
+        {
+            float horizontal = moveAction.action.ReadValue<Vector2>().x;
+            MoveRail(horizontal);
+        }
+        
     }
 
     private void MoveRail(float input)
@@ -32,6 +41,7 @@ public class DollyView : AView
             distanceOnRail += input * speed * Time.deltaTime;
         }
     }
+    
     public override CameraConfiguration GetConfiguration()
     {
         CameraConfiguration result = new CameraConfiguration();
