@@ -52,17 +52,18 @@ public class Rail : MonoBehaviour
         
         for (int i = 0; i < transform.childCount; i++)
         {
+            if (!isLoop && i >= transform.childCount - 1) break;
+            
             Vector3 pos = transform.GetChild(i).position;
             Vector3 nextPos = pos;
             
-            if (i + 1 < transform.childCount)
-            {
-                nextPos = transform.GetChild(i+1).position;
-            }
-
             if (i == transform.childCount - 1 && isLoop && transform.childCount > 0)
             {
                 nextPos = transform.GetChild(0).position;
+            }
+            else
+            {
+                nextPos = transform.GetChild(i+1).position;
             }
             
             float d = distance - traveled;
@@ -100,5 +101,42 @@ public class Rail : MonoBehaviour
                 Gizmos.DrawLine(child.position, firstChild.position);
             }
         }
+    }
+
+    public float GetDistanceOnRailOfNearestPoint(Vector3 target)
+    {
+        float result = 0f;
+        float min = 0f;
+        float traveled = 0f;
+        
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (!isLoop && i >= transform.childCount - 1) break;
+            
+            Vector3 a = transform.GetChild(i).position;
+            Vector3 b = a;
+
+            if (i == transform.childCount - 1 && isLoop && transform.childCount > 0)
+            {
+                b = transform.GetChild(0).position;
+            }
+            else
+            {
+                b = transform.GetChild(i+1).position;
+            }
+            
+            Vector3 proj = MathUtils.GetNearestPointOnSegment(a, b, target);
+            float distance = Vector3.Distance(proj, target);
+            float d = Vector3.Distance(a, proj);
+            if (i == 0 || distance < min)
+            {
+                min = distance;
+                result = traveled + d;
+            }
+            
+            traveled += Vector3.Distance(a, b);
+        }
+        
+        return result;
     }
 }
