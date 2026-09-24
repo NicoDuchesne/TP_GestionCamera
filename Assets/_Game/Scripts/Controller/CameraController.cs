@@ -106,6 +106,11 @@ public class CameraController : MonoBehaviour
             result.distance += c.distance * view.weight;
             result.fov += c.fov * view.weight;
         }
+
+        if (totalWeight == 0)
+        {
+            return new CameraConfiguration();
+        }
         
         result.pitch /= totalWeight;
         result.roll /= totalWeight;
