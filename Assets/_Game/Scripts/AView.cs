@@ -3,12 +3,7 @@ using UnityEngine;
 public abstract class AView : MonoBehaviour
 {
     public float weight;
-    public bool isActiveOnStart;
-
-    private void Start()
-    {
-        if (isActiveOnStart) SetActive(isActiveOnStart);
-    }
+    
     public virtual CameraConfiguration GetConfiguration()
     {
         return new CameraConfiguration();
@@ -16,7 +11,15 @@ public abstract class AView : MonoBehaviour
 
     public void SetActive(bool isActive)
     {
-        CameraController.Instance.AddView(this);
+        if (isActive)
+        {
+            CameraController.Instance.AddView(this);
+        }
+        else
+        {
+            weight = 0f;
+            CameraController.Instance.RemoveView(this);
+        }
     }
 
     void OnDrawGizmos()
