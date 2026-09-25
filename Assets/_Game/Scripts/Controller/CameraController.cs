@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
     public float smoothSpeed = 5f;
     private CameraConfiguration targetConfiguration;
     private CameraConfiguration actualConfiguration;
+    private bool isCutRequested;
     public static CameraController Instance;
     
     private List<AView> activeViews = new List<AView>();
@@ -53,6 +54,12 @@ public class CameraController : MonoBehaviour
 
     private CameraConfiguration Smooth()
     {
+        if (isCutRequested)
+        {
+            isCutRequested = false;
+            return targetConfiguration;
+        }
+        
         CameraConfiguration result = actualConfiguration;
         
         if (smoothSpeed * Time.deltaTime < 1)
@@ -133,6 +140,11 @@ public class CameraController : MonoBehaviour
                 Mathf.Sin(config.yaw * Mathf.Deg2Rad)) * view.weight;
         }
         return Vector2.SignedAngle(Vector2.right, sum);
+    }
+
+    public void Cut()
+    {
+        isCutRequested = true;
     }
     
 }
