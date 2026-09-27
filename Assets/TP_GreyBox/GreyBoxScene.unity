@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 15426337}
   - component: {fileID: 15426336}
   m_Layer: 0
-  m_Name: Vol1 (7)
+  m_Name: Vol8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,7 +237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37476325}
   m_Layer: 0
-  m_Name: Point1 (18)
+  m_Name: Point19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55541179}
   m_Layer: 0
-  m_Name: Point1 (12)
+  m_Name: Point13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 74218265}
   - component: {fileID: 74218264}
   m_Layer: 0
-  m_Name: Vol1 (4)
+  m_Name: Vol5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17989,7 +17989,7 @@ GameObject:
   - component: {fileID: 175308387}
   - component: {fileID: 175308388}
   m_Layer: 0
-  m_Name: Dolly1
+  m_Name: TowerDollyAuto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18041,7 +18041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175525186}
   m_Layer: 0
-  m_Name: Point1 (11)
+  m_Name: Point12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18072,7 +18072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175832390}
   m_Layer: 0
-  m_Name: Point1 (20)
+  m_Name: Point21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18281,7 +18281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 191069118}
   m_Layer: 0
-  m_Name: Point1 (5)
+  m_Name: Point6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18406,7 +18406,7 @@ GameObject:
   - component: {fileID: 210645298}
   - component: {fileID: 210645297}
   m_Layer: 0
-  m_Name: Vol1 (8)
+  m_Name: Vo9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18475,7 +18475,7 @@ GameObject:
   - component: {fileID: 248170288}
   - component: {fileID: 248170287}
   m_Layer: 0
-  m_Name: TowerTopVol
+  m_Name: TowerTopTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18720,7 +18720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286102035}
   m_Layer: 0
-  m_Name: Point1 (3)
+  m_Name: Point4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18782,7 +18782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320600953}
   m_Layer: 0
-  m_Name: Point1 (13)
+  m_Name: Point15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23934,7 +23934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394004124}
   m_Layer: 0
-  m_Name: Point1 (26)
+  m_Name: Point31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23965,7 +23965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406070065}
   m_Layer: 0
-  m_Name: Point1 (29)
+  m_Name: Point18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23996,7 +23996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409777782}
   m_Layer: 0
-  m_Name: Point1 (8)
+  m_Name: Point9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24205,7 +24205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443049116}
   m_Layer: 0
-  m_Name: Point1 (9)
+  m_Name: Point10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24593,7 +24593,7 @@ GameObject:
   - component: {fileID: 462026889}
   - component: {fileID: 462026890}
   m_Layer: 0
-  m_Name: Rail1
+  m_Name: RailTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24663,7 +24663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467896538}
   m_Layer: 0
-  m_Name: Point1 (4)
+  m_Name: Point5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24874,7 +24874,7 @@ GameObject:
   - component: {fileID: 482123868}
   - component: {fileID: 482123867}
   m_Layer: 0
-  m_Name: Vol1 (1)
+  m_Name: Vol2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24972,7 +24972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 486054898}
   m_Layer: 0
-  m_Name: Point1 (10)
+  m_Name: Point11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25003,7 +25003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488271082}
   m_Layer: 0
-  m_Name: Point1 (3)
+  m_Name: Point4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25752,7 +25752,7 @@ GameObject:
   - component: {fileID: 534933743}
   - component: {fileID: 534933742}
   m_Layer: 0
-  m_Name: TopDownHoleVolume
+  m_Name: HoleTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25819,7 +25819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550042749}
   m_Layer: 0
-  m_Name: Point1 (7)
+  m_Name: Point8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26572,7 +26572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605976605}
   m_Layer: 0
-  m_Name: Point1 (22)
+  m_Name: Point23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26960,7 +26960,7 @@ GameObject:
   - component: {fileID: 657565462}
   - component: {fileID: 657565463}
   m_Layer: 0
-  m_Name: SmallTowerCam
+  m_Name: SmallTowerDolly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27012,7 +27012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676693303}
   m_Layer: 0
-  m_Name: Point1 (23)
+  m_Name: Point28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27043,7 +27043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689489023}
   m_Layer: 0
-  m_Name: Point1 (16)
+  m_Name: Point17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43011,7 +43011,7 @@ GameObject:
   - component: {fileID: 720325995}
   - component: {fileID: 720325996}
   m_Layer: 0
-  m_Name: VolumeCirculaireRampe
+  m_Name: RampCircular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43218,7 +43218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 732893163}
   m_Layer: 0
-  m_Name: Point1 (9)
+  m_Name: Point10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43250,7 +43250,7 @@ GameObject:
   - component: {fileID: 769369945}
   - component: {fileID: 769369946}
   m_Layer: 0
-  m_Name: Global
+  m_Name: PlayerGlobal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45809,7 +45809,7 @@ GameObject:
   - component: {fileID: 816794582}
   - component: {fileID: 816794581}
   m_Layer: 0
-  m_Name: VolumeCavern2
+  m_Name: CavernTiggerCut2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45878,7 +45878,7 @@ GameObject:
   - component: {fileID: 829750152}
   - component: {fileID: 829750151}
   m_Layer: 0
-  m_Name: Vol1 (2)
+  m_Name: Vol3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45946,7 +45946,7 @@ GameObject:
   - component: {fileID: 858276140}
   - component: {fileID: 858276141}
   m_Layer: 0
-  m_Name: Cavern1
+  m_Name: CavernFixedFollow1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45996,7 +45996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868389330}
   m_Layer: 0
-  m_Name: Point1 (6)
+  m_Name: Point7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46027,7 +46027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888006694}
   m_Layer: 0
-  m_Name: Point1 (14)
+  m_Name: Point15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46058,7 +46058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 903374872}
   m_Layer: 0
-  m_Name: Point1 (21)
+  m_Name: Point22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46089,7 +46089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917052970}
   m_Layer: 0
-  m_Name: Point1 (16)
+  m_Name: Point19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49492,7 +49492,7 @@ GameObject:
   - component: {fileID: 938899509}
   - component: {fileID: 938899510}
   m_Layer: 0
-  m_Name: Cavern2
+  m_Name: CavernFixedFollow2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49542,7 +49542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980499075}
   m_Layer: 0
-  m_Name: Point1 (2)
+  m_Name: Point3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76220,7 +76220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1192230902}
   m_Layer: 0
-  m_Name: Point1 (11)
+  m_Name: Point12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89458,7 +89458,7 @@ GameObject:
   - component: {fileID: 1215616353}
   - component: {fileID: 1215616352}
   m_Layer: 0
-  m_Name: Vol1 (6)
+  m_Name: Vol7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89525,7 +89525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240214183}
   m_Layer: 0
-  m_Name: Point1 (24)
+  m_Name: Point29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89556,7 +89556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265821581}
   m_Layer: 0
-  m_Name: Point1 (14)
+  m_Name: Point16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89587,7 +89587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267896509}
   m_Layer: 0
-  m_Name: Point1 (23)
+  m_Name: Point24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89798,7 +89798,7 @@ GameObject:
   - component: {fileID: 1306205440}
   - component: {fileID: 1306205439}
   m_Layer: 0
-  m_Name: TowerDolly
+  m_Name: TowerTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89867,7 +89867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382790560}
   m_Layer: 0
-  m_Name: Point1 (28)
+  m_Name: Point14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89898,7 +89898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385710633}
   m_Layer: 0
-  m_Name: Point1 (1)
+  m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89929,7 +89929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1391890885}
   m_Layer: 0
-  m_Name: Point1 (6)
+  m_Name: Point7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89960,7 +89960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1408566665}
   m_Layer: 0
-  m_Name: Point1 (8)
+  m_Name: Point9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89991,7 +89991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429380039}
   m_Layer: 0
-  m_Name: Point1 (19)
+  m_Name: Point20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90284,7 +90284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457816837}
   m_Layer: 0
-  m_Name: Point1 (10)
+  m_Name: Point11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90315,7 +90315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511019583}
   m_Layer: 0
-  m_Name: Point1 (17)
+  m_Name: Point20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92445,7 +92445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557816189}
   m_Layer: 0
-  m_Name: Point1 (21)
+  m_Name: Point26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92478,7 +92478,7 @@ GameObject:
   - component: {fileID: 1589629102}
   - component: {fileID: 1589629103}
   m_Layer: 0
-  m_Name: FollowView
+  m_Name: PlayerFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104443,7 +104443,7 @@ GameObject:
   - component: {fileID: 1598294809}
   - component: {fileID: 1598294808}
   m_Layer: 0
-  m_Name: Vol1 (3)
+  m_Name: Vol4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104510,7 +104510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609176698}
   m_Layer: 0
-  m_Name: Point1 (22)
+  m_Name: Point27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104541,7 +104541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614878749}
   m_Layer: 0
-  m_Name: Point1 (5)
+  m_Name: Point6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105077,7 +105077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630589850}
   m_Layer: 0
-  m_Name: Point1 (15)
+  m_Name: Point17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105109,7 +105109,7 @@ GameObject:
   - component: {fileID: 1636552514}
   - component: {fileID: 1636552515}
   m_Layer: 0
-  m_Name: TopDownHoleView
+  m_Name: TopDownHoleFixed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105158,7 +105158,7 @@ GameObject:
   - component: {fileID: 1639583016}
   - component: {fileID: 1639583017}
   m_Layer: 0
-  m_Name: Rail2
+  m_Name: RailSmallTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110388,7 +110388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740470923}
   m_Layer: 0
-  m_Name: Point1 (1)
+  m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110419,7 +110419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748342321}
   m_Layer: 0
-  m_Name: Point1 (15)
+  m_Name: Point16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110450,7 +110450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799206997}
   m_Layer: 0
-  m_Name: Point1 (7)
+  m_Name: Point8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110659,7 +110659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813737332}
   m_Layer: 0
-  m_Name: Point1 (13)
+  m_Name: Point14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110690,7 +110690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832773477}
   m_Layer: 0
-  m_Name: Point1 (12)
+  m_Name: Point13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110721,7 +110721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1848260328}
   m_Layer: 0
-  m_Name: Point1 (24)
+  m_Name: Point25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110752,7 +110752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881884772}
   m_Layer: 0
-  m_Name: Point1 (18)
+  m_Name: Point21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110783,7 +110783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882430658}
   m_Layer: 0
-  m_Name: Point1 (20)
+  m_Name: Point23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110816,7 +110816,7 @@ GameObject:
   - component: {fileID: 1886689493}
   - component: {fileID: 1886689492}
   m_Layer: 0
-  m_Name: VolumeCavern1
+  m_Name: CavernTriggerCut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110883,7 +110883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889432998}
   m_Layer: 0
-  m_Name: Point1 (25)
+  m_Name: Point30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110914,7 +110914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951764325}
   m_Layer: 0
-  m_Name: Point1 (17)
+  m_Name: Point18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110946,7 +110946,7 @@ GameObject:
   - component: {fileID: 1956378504}
   - component: {fileID: 1956378503}
   m_Layer: 0
-  m_Name: CamRampe
+  m_Name: RampFixed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110994,7 +110994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959517020}
   m_Layer: 0
-  m_Name: Point1 (27)
+  m_Name: Point24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111025,7 +111025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1971409706}
   m_Layer: 0
-  m_Name: SmallTowerVol
+  m_Name: SmallTowerTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111243,7 +111243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984019387}
   m_Layer: 0
-  m_Name: Point1 (4)
+  m_Name: Point5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111274,7 +111274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997752647}
   m_Layer: 0
-  m_Name: Point1 (2)
+  m_Name: Point3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111305,7 +111305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2037350596}
   m_Layer: 0
-  m_Name: Point1 (30)
+  m_Name: Point25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112779,7 +112779,7 @@ GameObject:
   - component: {fileID: 2039888453}
   - component: {fileID: 2039888452}
   m_Layer: 0
-  m_Name: Vol1 (5)
+  m_Name: Vol6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112846,7 +112846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2052949478}
   m_Layer: 0
-  m_Name: Point1 (31)
+  m_Name: Point32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112878,7 +112878,7 @@ GameObject:
   - component: {fileID: 2054592312}
   - component: {fileID: 2054592311}
   m_Layer: 0
-  m_Name: TowerTopCam
+  m_Name: TowerTopFixed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126162,7 +126162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098043724}
   m_Layer: 0
-  m_Name: Point1 (25)
+  m_Name: Point26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126262,7 +126262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145715553}
   m_Layer: 0
-  m_Name: Point1 (19)
+  m_Name: Point22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
