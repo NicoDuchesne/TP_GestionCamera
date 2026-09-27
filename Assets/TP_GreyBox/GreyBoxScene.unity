@@ -26960,7 +26960,7 @@ GameObject:
   - component: {fileID: 657565462}
   - component: {fileID: 657565463}
   m_Layer: 0
-  m_Name: SmallTowerDolly
+  m_Name: SmallTowerDollyManual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26999,7 +26999,7 @@ MonoBehaviour:
   fov: 90
   target: {fileID: 725464765}
   rail: {fileID: 1639583017}
-  speed: 5
+  speed: 3
   moveAction: {fileID: -5630151704836100654, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   isAuto: 0
 --- !u!1 &676693302
